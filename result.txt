@@ -1,17 +1,131 @@
-Score: 14.469510, cost: 125315.915845, lambda: 1.000000
-Score: 14.469510, cost: 125315.915845, lambda: 1.000000, interval: 2.000000
-Score: 9.290543, cost: 127408.667244, lambda: 1.000000, interval: 3.000000
-Score: 32.367197, cost: 125130.243733, lambda: 1.000000, interval: 1.000000
-Score: 63.202509, cost: 114201.570264, lambda: 1.000000, interval: 0.500000
-Score: 31.601254, cost: 114201.570264, lambda: 1.000000, interval: 0.500000
-Score: 31.601254, cost: 114201.570264, lambda: 1.000000, interval: 1.000000
-Score: 32.367197, cost: 125130.243733, lambda: 1.000000, interval: 1.000000
-Mae: 30.910076, cost: 124825.987193, lambda: 1.000000, interval: 0.800000
-Mae: 309.100759, cost: 124825.987193, lambda: 1.000000, interval: 0.800000
-Mae: 1770.748886, cost: 2103430.969658, lambda: 1.000000, interval: 0.800000
-Mae: 1309.709898, cost: 1120888.701062, lambda: 1.000000, interval: 0.800000
-Mae: 1309.709898, cost: 1120888.701062, lambda: 1.000000, interval: 0.800000
-Mae: 2241777.402125, cost: 1120888.701062, lambda: 1.000000, interval: 0.800000
-Mae: 1497.256625, cost: 1120888.701062, lambda: 1.000000, interval: 0.800000
-Mae: 478.541759, cost: 114501.107788, lambda: 1.000000, interval: 0.800000
-Mae: 308.576510, cost: 114501.107788, lambda: 1.000000, interval: 0.800000
+-----------------------------------------------------------
+tmp result: mae: 421.873862, cost: 7.675174e-03, lambda: 0.010000, interval: 1.000000
+tmp result: mae: 421.873855, cost: 7.675174e-03, lambda: 0.030000, interval: 1.000000
+tmp result: mae: 421.873831, cost: 7.675174e-03, lambda: 0.100000, interval: 1.000000
+tmp result: mae: 421.873763, cost: 7.675174e-03, lambda: 0.300000, interval: 1.000000
+tmp result: mae: 421.873523, cost: 7.675174e-03, lambda: 1.000000, interval: 1.000000
+tmp result: mae: 421.872838, cost: 7.675174e-03, lambda: 3.000000, interval: 1.000000
+-----------------------------------------------------------
+tmp result: mae: 421.873862, cost: 7.6751738861e-03, lambda: 0.010000, interval: 1.000000
+tmp result: mae: 421.873855, cost: 7.6751738889e-03, lambda: 0.030000, interval: 1.000000
+tmp result: mae: 421.873831, cost: 7.6751738987e-03, lambda: 0.100000, interval: 1.000000
+tmp result: mae: 421.873763, cost: 7.6751739266e-03, lambda: 0.300000, interval: 1.000000
+tmp result: mae: 421.873523, cost: 7.6751740242e-03, lambda: 1.000000, interval: 1.000000
+tmp result: mae: 421.872838, cost: 7.6751743037e-03, lambda: 3.000000, interval: 1.000000
+tmp result: mae: 421.870441, cost: 7.6751752877e-03, lambda: 10.000000, interval: 1.000000
+tmp result: mae: 421.863593, cost: 7.6751781491e-03, lambda: 30.000000, interval: 1.000000
+tmp result: mae: 421.839632, cost: 7.6751887484e-03, lambda: 100.000000, interval: 1.000000
+tmp result: mae: 421.771238, cost: 7.6752240343e-03, lambda: 300.000000, interval: 1.000000
+tmp result: mae: 345.500074, cost: 5.7610439274e-03, lambda: 0.010000, interval: 2.000000
+tmp result: mae: 345.500066, cost: 5.7610439316e-03, lambda: 0.030000, interval: 2.000000
+tmp result: mae: 345.500037, cost: 5.7610439462e-03, lambda: 0.100000, interval: 2.000000
+tmp result: mae: 345.499954, cost: 5.7610439879e-03, lambda: 0.300000, interval: 2.000000
+tmp result: mae: 345.499665, cost: 5.7610441339e-03, lambda: 1.000000, interval: 2.000000
+tmp result: mae: 345.498841, cost: 5.7610445518e-03, lambda: 3.000000, interval: 2.000000
+tmp result: mae: 345.495955, cost: 5.7610460210e-03, lambda: 10.000000, interval: 2.000000
+tmp result: mae: 345.487720, cost: 5.7610502764e-03, lambda: 30.000000, interval: 2.000000
+tmp result: mae: 345.458981, cost: 5.7610658409e-03, lambda: 100.000000, interval: 2.000000
+tmp result: mae: 345.377250, cost: 5.7611160543e-03, lambda: 300.000000, interval: 2.000000
+tmp result: mae: 339.193455, cost: 5.5283057310e-03, lambda: 0.010000, interval: 3.000000
+tmp result: mae: 339.193445, cost: 5.5283057292e-03, lambda: 0.030000, interval: 3.000000
+tmp result: mae: 339.193408, cost: 5.5283057228e-03, lambda: 0.100000, interval: 3.000000
+tmp result: mae: 339.193304, cost: 5.5283057046e-03, lambda: 0.300000, interval: 3.000000
+tmp result: mae: 339.192938, cost: 5.5283056409e-03, lambda: 1.000000, interval: 3.000000
+tmp result: mae: 339.191894, cost: 5.5283054595e-03, lambda: 3.000000, interval: 3.000000
+tmp result: mae: 339.188239, cost: 5.5283048316e-03, lambda: 10.000000, interval: 3.000000
+tmp result: mae: 339.177798, cost: 5.5283030983e-03, lambda: 30.000000, interval: 3.000000
+tmp result: mae: 339.141402, cost: 5.5282977369e-03, lambda: 100.000000, interval: 3.000000
+tmp result: mae: 339.038094, cost: 5.5282884595e-03, lambda: 300.000000, interval: 3.000000
+tmp result: mae: 334.768655, cost: 5.4545962736e-03, lambda: 0.010000, interval: 4.000000
+tmp result: mae: 334.768643, cost: 5.4545962713e-03, lambda: 0.030000, interval: 4.000000
+tmp result: mae: 334.768603, cost: 5.4545962632e-03, lambda: 0.100000, interval: 4.000000
+tmp result: mae: 334.768487, cost: 5.4545962401e-03, lambda: 0.300000, interval: 4.000000
+tmp result: mae: 334.768082, cost: 5.4545961594e-03, lambda: 1.000000, interval: 4.000000
+tmp result: mae: 334.766923, cost: 5.4545959294e-03, lambda: 3.000000, interval: 4.000000
+tmp result: mae: 334.762870, cost: 5.4545951319e-03, lambda: 10.000000, interval: 4.000000
+tmp result: mae: 334.751337, cost: 5.4545929155e-03, lambda: 30.000000, interval: 4.000000
+tmp result: mae: 334.711222, cost: 5.4545858861e-03, lambda: 100.000000, interval: 4.000000
+tmp result: mae: 334.596715, cost: 5.4545720337e-03, lambda: 300.000000, interval: 4.000000
+tmp result: mae: 335.464981, cost: 5.5851630760e-03, lambda: 0.010000, interval: 5.000000
+tmp result: mae: 335.464969, cost: 5.5851630752e-03, lambda: 0.030000, interval: 5.000000
+tmp result: mae: 335.464931, cost: 5.5851630727e-03, lambda: 0.100000, interval: 5.000000
+tmp result: mae: 335.464819, cost: 5.5851630654e-03, lambda: 0.300000, interval: 5.000000
+tmp result: mae: 335.464430, cost: 5.5851630401e-03, lambda: 1.000000, interval: 5.000000
+tmp result: mae: 335.463318, cost: 5.5851629684e-03, lambda: 3.000000, interval: 5.000000
+tmp result: mae: 335.459426, cost: 5.5851627246e-03, lambda: 10.000000, interval: 5.000000
+tmp result: mae: 335.448307, cost: 5.5851620909e-03, lambda: 30.000000, interval: 5.000000
+tmp result: mae: 335.409400, cost: 5.5851606053e-03, lambda: 100.000000, interval: 5.000000
+tmp result: mae: 335.298457, cost: 5.5851626302e-03, lambda: 300.000000, interval: 5.000000
+tmp result: mae: 338.650193, cost: 5.8246149812e-03, lambda: 0.010000, interval: 6.000000
+tmp result: mae: 338.650182, cost: 5.8246149812e-03, lambda: 0.030000, interval: 6.000000
+tmp result: mae: 338.650143, cost: 5.8246149810e-03, lambda: 0.100000, interval: 6.000000
+tmp result: mae: 338.650032, cost: 5.8246149804e-03, lambda: 0.300000, interval: 6.000000
+tmp result: mae: 338.649644, cost: 5.8246149786e-03, lambda: 1.000000, interval: 6.000000
+tmp result: mae: 338.648533, cost: 5.8246149741e-03, lambda: 3.000000, interval: 6.000000
+tmp result: mae: 338.644646, cost: 5.8246149657e-03, lambda: 10.000000, interval: 6.000000
+tmp result: mae: 338.633561, cost: 5.8246150045e-03, lambda: 30.000000, interval: 6.000000
+tmp result: mae: 338.595510, cost: 5.8246158752e-03, lambda: 100.000000, interval: 6.000000
+tmp result: mae: 338.487690, cost: 5.8246246548e-03, lambda: 300.000000, interval: 6.000000
+Mae: 397.890738, cost: 6.0924008486e-03, lambda: 300.000000, interval: 4.000000
+-----------------------------------------------------------
+tmp result: mae: 421.873862, cost: 7.6751738861e-03, lambda: 0.010000, interval: 1.000000
+tmp result: mae: 421.873855, cost: 7.6751738889e-03, lambda: 0.030000, interval: 1.000000
+tmp result: mae: 421.873831, cost: 7.6751738987e-03, lambda: 0.100000, interval: 1.000000
+tmp result: mae: 421.873763, cost: 7.6751739266e-03, lambda: 0.300000, interval: 1.000000
+tmp result: mae: 421.873523, cost: 7.6751740242e-03, lambda: 1.000000, interval: 1.000000
+tmp result: mae: 421.872838, cost: 7.6751743037e-03, lambda: 3.000000, interval: 1.000000
+tmp result: mae: 421.870441, cost: 7.6751752877e-03, lambda: 10.000000, interval: 1.000000
+tmp result: mae: 421.863593, cost: 7.6751781491e-03, lambda: 30.000000, interval: 1.000000
+tmp result: mae: 421.839632, cost: 7.6751887484e-03, lambda: 100.000000, interval: 1.000000
+tmp result: mae: 421.771238, cost: 7.6752240343e-03, lambda: 300.000000, interval: 1.000000
+tmp result: mae: 345.500074, cost: 5.7610439274e-03, lambda: 0.010000, interval: 2.000000
+tmp result: mae: 345.500066, cost: 5.7610439316e-03, lambda: 0.030000, interval: 2.000000
+tmp result: mae: 345.500037, cost: 5.7610439462e-03, lambda: 0.100000, interval: 2.000000
+tmp result: mae: 345.499954, cost: 5.7610439879e-03, lambda: 0.300000, interval: 2.000000
+tmp result: mae: 345.499665, cost: 5.7610441339e-03, lambda: 1.000000, interval: 2.000000
+tmp result: mae: 345.498841, cost: 5.7610445518e-03, lambda: 3.000000, interval: 2.000000
+tmp result: mae: 345.495955, cost: 5.7610460210e-03, lambda: 10.000000, interval: 2.000000
+tmp result: mae: 345.487720, cost: 5.7610502764e-03, lambda: 30.000000, interval: 2.000000
+tmp result: mae: 345.458981, cost: 5.7610658409e-03, lambda: 100.000000, interval: 2.000000
+tmp result: mae: 345.377250, cost: 5.7611160543e-03, lambda: 300.000000, interval: 2.000000
+tmp result: mae: 339.193455, cost: 5.5283057310e-03, lambda: 0.010000, interval: 3.000000
+tmp result: mae: 339.193445, cost: 5.5283057292e-03, lambda: 0.030000, interval: 3.000000
+tmp result: mae: 339.193408, cost: 5.5283057228e-03, lambda: 0.100000, interval: 3.000000
+tmp result: mae: 339.193304, cost: 5.5283057046e-03, lambda: 0.300000, interval: 3.000000
+tmp result: mae: 339.192938, cost: 5.5283056409e-03, lambda: 1.000000, interval: 3.000000
+tmp result: mae: 339.191894, cost: 5.5283054595e-03, lambda: 3.000000, interval: 3.000000
+tmp result: mae: 339.188239, cost: 5.5283048316e-03, lambda: 10.000000, interval: 3.000000
+tmp result: mae: 339.177798, cost: 5.5283030983e-03, lambda: 30.000000, interval: 3.000000
+tmp result: mae: 339.141402, cost: 5.5282977369e-03, lambda: 100.000000, interval: 3.000000
+tmp result: mae: 339.038094, cost: 5.5282884595e-03, lambda: 300.000000, interval: 3.000000
+tmp result: mae: 334.768655, cost: 5.4545962736e-03, lambda: 0.010000, interval: 4.000000
+tmp result: mae: 334.768643, cost: 5.4545962713e-03, lambda: 0.030000, interval: 4.000000
+tmp result: mae: 334.768603, cost: 5.4545962632e-03, lambda: 0.100000, interval: 4.000000
+tmp result: mae: 334.768487, cost: 5.4545962401e-03, lambda: 0.300000, interval: 4.000000
+tmp result: mae: 334.768082, cost: 5.4545961594e-03, lambda: 1.000000, interval: 4.000000
+tmp result: mae: 334.766923, cost: 5.4545959294e-03, lambda: 3.000000, interval: 4.000000
+tmp result: mae: 334.762870, cost: 5.4545951319e-03, lambda: 10.000000, interval: 4.000000
+tmp result: mae: 334.751337, cost: 5.4545929155e-03, lambda: 30.000000, interval: 4.000000
+tmp result: mae: 334.711222, cost: 5.4545858861e-03, lambda: 100.000000, interval: 4.000000
+tmp result: mae: 334.596715, cost: 5.4545720337e-03, lambda: 300.000000, interval: 4.000000
+tmp result: mae: 335.464981, cost: 5.5851630760e-03, lambda: 0.010000, interval: 5.000000
+tmp result: mae: 335.464969, cost: 5.5851630752e-03, lambda: 0.030000, interval: 5.000000
+tmp result: mae: 335.464931, cost: 5.5851630727e-03, lambda: 0.100000, interval: 5.000000
+tmp result: mae: 335.464819, cost: 5.5851630654e-03, lambda: 0.300000, interval: 5.000000
+tmp result: mae: 335.464430, cost: 5.5851630401e-03, lambda: 1.000000, interval: 5.000000
+tmp result: mae: 335.463318, cost: 5.5851629684e-03, lambda: 3.000000, interval: 5.000000
+tmp result: mae: 335.459426, cost: 5.5851627246e-03, lambda: 10.000000, interval: 5.000000
+tmp result: mae: 335.448307, cost: 5.5851620909e-03, lambda: 30.000000, interval: 5.000000
+tmp result: mae: 335.409400, cost: 5.5851606053e-03, lambda: 100.000000, interval: 5.000000
+tmp result: mae: 335.298457, cost: 5.5851626302e-03, lambda: 300.000000, interval: 5.000000
+tmp result: mae: 338.650193, cost: 5.8246149812e-03, lambda: 0.010000, interval: 6.000000
+tmp result: mae: 338.650182, cost: 5.8246149812e-03, lambda: 0.030000, interval: 6.000000
+tmp result: mae: 338.650143, cost: 5.8246149810e-03, lambda: 0.100000, interval: 6.000000
+tmp result: mae: 338.650032, cost: 5.8246149804e-03, lambda: 0.300000, interval: 6.000000
+tmp result: mae: 338.649644, cost: 5.8246149786e-03, lambda: 1.000000, interval: 6.000000
+tmp result: mae: 338.648533, cost: 5.8246149741e-03, lambda: 3.000000, interval: 6.000000
+tmp result: mae: 338.644646, cost: 5.8246149657e-03, lambda: 10.000000, interval: 6.000000
+tmp result: mae: 338.633561, cost: 5.8246150045e-03, lambda: 30.000000, interval: 6.000000
+tmp result: mae: 338.595510, cost: 5.8246158752e-03, lambda: 100.000000, interval: 6.000000
+tmp result: mae: 338.487690, cost: 5.8246246548e-03, lambda: 300.000000, interval: 6.000000
+Mae: 397.890738, cost: 6.0924008486e-03, lambda: 300.000000, interval: 4.000000
