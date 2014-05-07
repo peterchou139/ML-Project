@@ -1,4 +1,5 @@
-lambda_vector = [0.01 0.03 0.1 0.3 1 3 10 30 100 300];
+lambda_vector = [0.1 0.3 1 3 10 30 100 300 1000 3000];
+lambda_vector = [300 1000 3000];
 interval_vector = [1 2 3 4 5 6];
 mae = realmax;
 cost = realmax;
@@ -29,7 +30,7 @@ for i = 1:length(interval_vector)
         tmp_cost = computeCost(Xval, yval, tmp_theta);
         fprintf('tmp result: mae: %f, cost: %.10e, lambda: %f, interval: %f\n', tmp_mae, tmp_cost, tmp_lambda, tmp_interval);
         fprintf(file, 'tmp result: mae: %f, cost: %.10e, lambda: %f, interval: %f\n', tmp_mae, tmp_cost, tmp_lambda, tmp_interval);
-        if (tmp_mae < mae)
+        if (tmp_cost < cost)
             cost = tmp_cost;
             mae = tmp_mae;
             theta = tmp_theta;
