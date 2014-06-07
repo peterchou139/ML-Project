@@ -10,10 +10,10 @@ for i = 1:length(interval_vector)
         tmp_interval = interval_vector(i);
         tmp_lambda = lambda_vector(j);
         fprintf('Choose lambda: %f, interval: %f\n', tmp_lambda, tmp_interval);
-        % ¿ªÊ¼Ô¤´¦ÀíÊı¾İ
+        % å¼€å§‹é¢„å¤„ç†æ•°æ®
         [X, y, Xval, yval, Xtest, ytest] = preprocess(tmp_interval);
         
-        % ¿ªÊ¼Ìİ¶ÈÏÂ½µ·¨ÑµÁ·
+        % å¼€å§‹æ¢¯åº¦ä¸‹é™æ³•è®­ç»ƒ
         fprintf('Traning... \n');
         m = size(X, 1);
         X = [ones(m, 1) X];
@@ -22,7 +22,7 @@ for i = 1:length(interval_vector)
         [tmp_theta, J] = ...
             fminunc(@(t)(costFunction(t, X, y, tmp_lambda)), initial_theta, options);
 
-        % ¿ªÊ¼½»²æÑéÖ¤
+        % å¼€å§‹äº¤å‰éªŒè¯
         fprintf('Starting cross validation...\n');
         Xval = [ones(size(Xval, 1), 1) Xval];
         error = abs(10 .^ (Xval * tmp_theta) - 10 .^ yval);
