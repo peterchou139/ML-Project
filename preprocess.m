@@ -1,5 +1,5 @@
 function [X, y, Xval, yval, Xtest, ytest] = preprocess(interval)
-% ¿ªÊ¼Êı¾İÔ¤´¦Àí
+% å¼€å§‹æ•°æ®é¢„å¤„ç†
 fprintf('Preprocessing data... \n');
 load('distance.txt');
 load('distance_test.txt');
@@ -18,7 +18,7 @@ for i = 1:m
     tmp_yi = tmp_y(i, :);
     timestamp = tmp_yi(1, 1);
     yi = log10(tmp_yi(1, 2));
-    % ×¢ÒâÕâÀï¿ÉÒÔ¶Ô interval ÄÚ rssi Ñù±¾ÊıÉÙÓÚÒ»¶¨¸öÊıµÄ distance Ñù±¾×öÌŞ³ı´¦Àí
+    % æ³¨æ„è¿™é‡Œå¯ä»¥å¯¹ interval å†… rssi æ ·æœ¬æ•°å°‘äºä¸€å®šä¸ªæ•°çš„ distance æ ·æœ¬åšå‰”é™¤å¤„ç†
     x = zeros(1, 1);
     for j = 5:5
         tmp_rssi = rssi(rssi(:, 1) <= timestamp & rssi(:, 1) >= (timestamp - interval) & rssi(:, 2) == j, 3);
@@ -71,4 +71,4 @@ for i = 1:m_test
 end
 % Xtest = bsxfun(@minus, Xtest, mu);
 % Xtest = bsxfun(@rdivide, Xtest, sigma);
-% Êı¾İÔ¤´¦Àí½áÊø
+% æ•°æ®é¢„å¤„ç†ç»“æŸ
